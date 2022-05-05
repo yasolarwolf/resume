@@ -1,0 +1,87 @@
+html body{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-size: 17px;
+    font-family:  sans-serif;
+    background: #7F00FF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E100FF, #7F00FF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E100FF, #7F00FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    overflow-x: hidden;
+    position: relative;
+
+}
+
+
+img{
+max-width: 100%;
+    padding: 1rem 0;
+    border: none;
+
+}
+.about, .skills, .education, .languages, .experience ,.tasks, .contact{
+    padding: 25px;
+    min-height: 300px;
+}
+
+.pic_1{
+    font-size: 27px;
+    color: black;
+
+}
+.pic{
+    font-size: 25px;
+    color: black;
+}
+
+h3{
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+p {
+    font-size: 18px;
+}
+
+header{
+    text-align: center;
+    min-height: 400px;
+    padding-top: 2vh;
+    padding-bottom: 2.5vh;
+    overflow: hidden;
+}
+
+
+header .img-circle{
+    display: inline-block;
+}
+
+.about, .skills ,.education, .languages ,.tasks{
+    background: white;
+}
+
+.skills .progress, .languages .progress{
+    border-radius: 0;
+    height: 5px;
+}
+
+.skills .progress .progress-bar-primary{
+    background: #7F00FF;
+}
+
+.languages .progress .progress-bar-primary{
+    background: #E100FF;
+}
+
+.gallery .col{
+    height: auto;
+}
+
+.contact, .experience{
+    background: white;
+}
+
+
+
+
+
